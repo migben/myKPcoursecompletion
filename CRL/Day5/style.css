@@ -1,0 +1,42 @@
+* , *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  h1 {
+      font-family: Roboto;
+      font-style: black;
+      font-size: 48px;
+  }
+
+  p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-style: normal;
+  }
+
+  .hero {
+    width: 100%;
+    background: #23424a;
+    padding: 100px 0;
+    
+  }
+
+  .hero-content {
+
+    width: 50%;
+  }
+
+  .btn {
+    background-color: #38CFD9;
+    color: #23424A;
+    border-style: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
